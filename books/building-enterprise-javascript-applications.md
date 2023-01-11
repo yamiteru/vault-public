@@ -101,3 +101,81 @@ It's important to define the [[Definition of Done]].
 At the beginning of each sprint, a meeting is held to review pending tasks and select features to be tackled in this sprint. At the end of each sprint, a retorspective meeting is held to review the progress of the sprint and identify lessons that can be learned and applied to subsequent sprints.
 
 The most prominent technique is [[TDD]].
+
+Good code, whatever its definition, takes less time to write than bad code in the long run.
+
+You can build a house on weak foundations, and it may stand for hundread years, but build a skyscraper on a weak foundation, it'll come tumbling down quicker than you can imagine.
+
+> Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live
+- John F. Woods
+
+# The state of JavaScript
+
+- [[Isomorphic Apps]]
+- [[SPA]]
+
+# Writting tests
+
+## Types
+
+### Unit tests
+
+They test the smallest testable parts (units) of an application. Usually this means unit tests test single functions.
+
+### Integration tests
+
+These test whether different units can work together as a single, larger ensembe. They test the integration between two or more units and ensure they are compatible.
+
+### E2E tests
+
+These test the flow of an application from start to finish, acting as if we are the end consumers.
+
+### User interface tests
+
+Automated tests that mimic the behavior of real users interactive with individual components.
+
+### Manual tests
+
+These are tests that cannot be automated. Manual tests should be kept to minimum as they are not deterministic and there's a high cost to "running" them.
+
+### Acceptance tests
+
+They are a list of business requirements, laid out by the business owner, that the app must fulfill.
+
+## When implementing a new feature, write your E2E tests first
+
+E2E tests are more important than unit tests even though they are more expensive to develop.
+
+Unit tests concert themselves with implementation detail which is usually not the first thing we want to make sure that works correctly. We usually want to make sure that the business requirements or [[Definition of Done]] are fulfilled.
+
+## Formalizing requirements through documentation
+
+Having a set of formal requirements is only helpful if it is kept up to date.
+
+### People have bad memories
+
+Don't rely on your memory. Write down the requirements!
+
+### It prevents misinterpretation
+
+### A formalized requirement provides a [[SSoT]]
+
+It is inevitable that requirements will change. It is important to communicate the changes so there should be one singular place where anyone can find the current requirements.
+
+### A formalized requirement can be improved
+
+If someone forgot an important point they can add it as an addendum.
+
+## Writing tests as specification
+
+Tests can be run which means you can programmatically verify your implementation against your specification.
+
+There is less chance that your specification becomes outdated because if it does the test would fail.
+
+## Exploratory testing
+
+The purpose of exploratory testing is to identify edge cases that were missed, identify unintuitive outcomes, or find bugs that may otherwise break the system.
+
+## Maintenance
+
+We should prioritize issues based on impact, ease and urgency.

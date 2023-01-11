@@ -1,0 +1,1 @@
+Apps that run on both the client and the server.
