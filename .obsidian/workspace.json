@@ -1,0 +1,134 @@
+{
+  "main": {
+    "id": "f3b1f972176fc55e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b06773392f34f776",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9751180bcb9709b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/building-enterprise-javascript-applications.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "65f0cbc96a10f52a",
+    "type": "split",
+    "children": [
+      {
+        "id": "143e5304339b1047",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96528a567cd7783b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "23e16677e51eeb4b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "56fdb82c532997c7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 304
+  },
+  "right": {
+    "id": "a2880b451d802a19",
+    "type": "split",
+    "children": [
+      {
+        "id": "529f5c08b3930e47",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ee792106b8fbfde",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "books/building-enterprise-javascript-applications.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9f59d6c7ce79ab8d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "books/building-enterprise-javascript-applications.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "9751180bcb9709b5",
+  "lastOpenFiles": [
+    "notes/Triple constraint.md",
+    "notes/TDD.md",
+    "notes/Definition of Done.md",
+    "notes/First Mover Advantage.md",
+    "notes/Code Smells.md",
+    "notes/documentation-system.md",
+    "README.md"
+  ]
+}

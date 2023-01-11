@@ -1,0 +1,1 @@
+Ship a feature before your competitors go to market.

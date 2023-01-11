@@ -1,0 +1,16 @@
+{
+  "promptDelete": false,
+  "livePreview": false,
+  "showIndentGuide": false,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "en-US"
+  ],
+  "tabSize": 2,
+  "vimMode": true,
+  "trashOption": "system",
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "absolute",
+  "showUnsupportedFiles": true,
+  "showInlineTitle": false
+}

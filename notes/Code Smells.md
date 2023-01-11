@@ -1,0 +1,1 @@
+Weaknesses within the code that violate well-estabilished design principles, paradigms and patterns.
