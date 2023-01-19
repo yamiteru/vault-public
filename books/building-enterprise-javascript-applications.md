@@ -179,3 +179,61 @@ The purpose of exploratory testing is to identify edge cases that were missed, i
 ## Maintenance
 
 We should prioritize issues based on impact, ease and urgency.
+
+# CI/CD
+
+> Test early, test often
+
+# Authentication
+
+Hashing function maps data of an arbitrary size to data of fixed size (digest). Hashing functions are usually deterministic meaning that the same input results in the same output.
+
+We should always use cryptographic hash functions. They have these properties:
+- Deterministic
+- One-way (cannot be reverse-engineered)
+- Exhibits the avalanche effect (small change in the input would produce drastically different digest)
+- Collision-resistant (two different inputs result in two different digests)
+- Slow (discourages brute-forcing)
+- Robust (it must stand the test of time)
+
+Hash stretching - Slows down an algorithm by repeating the hash function many time over.
+
+Hash stetching algorithms - OBKDF2, bcrypt, scrypt.
+
+Attack types:
+- Dictionary
+- Brute-force
+- Reverse lookup table
+
+[[Secure Remote Password]]
+
+# Documenting our API
+
+[[OpenAPI]]/[[RAML]]/[[API Blueprint]].
+
+# Migrating to Docker
+
+Problems with manual deployment:
+- Lack of consistency
+- Lack of independence
+- Time-consuming and error-prone
+- Risky deployment
+- Difficult to maintain
+- Downtime
+- Lack of version control
+- Inefficient distribution of resources
+
+# Kubernetes
+
+[[SPOF]]
+
+___
+
+
+# Review
+
+I've really enjoyed the beginning of this book. It had some great insights into technical debt. As I've progressed throught the book the usefulness of the information at hand rapidly declined. There was a little too much specific code and guides than I'd like to see. I prefer general information, practices and wisdom to specific information that can very quickly become outdated (like specific frameworks, libraries, etc.).
+
+I think someone completely new to programming would appretiate this book much better than me. I'd be very happy to see junior devs knowing all of the information that can be found in this book.
+
+I've skipped a few parts (especially in the second half of the book) but overall I was able to take some very useful notes. So I'd give this book 7/10 as a senior dev. If I were junior dev then it would be solid 9/10.
