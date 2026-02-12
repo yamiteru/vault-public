@@ -1,13 +1,15 @@
 # TODOs
 - [ ] Create a new cover image
-- [ ] Create new scenes
+- [x] Create new scenes
 	- [x] Main camera without screen
 	- [x] Screen with main camera
-	- [x] Blured/secret screen with main camera
-	- [ ] Toilet brake
-	- [ ] Intro
-	- [ ] Outro
-- [ ] Update information on Twitch
+	- [x] Secret screen with screen and main camera
+	- [x] Secret screen with main camera
+	- [x] Toilet brake
+	- [x] Intro
+	- [x] Outro
+- [ ] Update time and temps every X seconds
+- [x] Update information on Twitch
 - [ ] Design section headers
 - [ ] Design donate button
 - [ ] Add donate overlay
@@ -21,7 +23,7 @@
 
 # Bio
 
-Hey! I'm a 💻 developer who's crazy about reactive/event-driven programming, functional programming and performance. I mainly program in TypeScript and I currently work as a senior dev and tech lead. I'm really into philosophy and spirituality. I enjoy sharing my knowledge and experience with you. We're all students 👨‍🎓 becoming better every day.
+Hey! I'm a 💻 developer who's crazy about reactive/event-driven programming, functional programming and performance. I mainly program in TypeScript and I currently work as a senior dev and tech lead. I'm really into philosophy and spirituality. We're all students 👨‍🎓 becoming better every day.
 
 # Schedule
 
@@ -35,7 +37,7 @@ I'm honestly much more grateful for an honest feedback than for the money.
 
 So if you want to make my day then just send me a feedback in the chat for free.
 
-All of the donations are gonna be used for a better streaming equipement.
+All of the donations are gonna be used for a better streaming equipment.
 
 # Can I hire you?
 
@@ -48,11 +50,11 @@ Here's a little list of things I can help you with:
 - Pair programming
 - Code review
 
-All of the items above will be for half of what I usually charge since I'll stream/record them and use them for content and I'll use all of the money for a better streaming equipement.
+All of the items above will be for half of what I usually charge since I'll stream/record them and use them for content and I'll use all of the money for a better streaming equipment.
 
 I can also develop a whole library/service/app for you but streaming/recording that will depend on your preferences and project detail.
 
-If you're interested then let me know on yamiteru@icloud.com.
+If you're interested then let me know on [yamiteru@icloud.com](mailto:yamiteru@icloud.com).
 
 # About me
 
@@ -91,3 +93,16 @@ Here is a list of rules:
 - If you ask a question then provide information about what you've already tried, what errors you're getting and what is the desired outcome
 - Don't ask questions about other projects while I'm working on a different one
 - Don't create X vs Y wars
+
+# Projects
+
+## Snail
+Have you ever felt overstimulated by the amount of information we nowadays have at our disposal? Do you feel like you have to respond immediately once someone messages you or do you feel bad leaving someone on seen?
+
+We use instant messaging on daily basis. I like to call this fast communication. It leads to addiction, depression, anxiety, etc.
+
+Currently there is no real slow alternative. Snail is supposed to be that alternative. It let's you send 1 "letter" per person per day. Additionally you get all your letters once a day (most likely in the morning).
+
+It basically simulates a physical post office to some extend.
+
+All of the projects can be found [here](https://github.com/yamiteru/vault-public/tree/master/projects).

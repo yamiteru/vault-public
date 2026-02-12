@@ -1,0 +1,1 @@
+Mechanism for controlling access to some share data. It ensures that only one task may use that resource at any given time. Most often the concept is used when working with multiple threads, to avoid race conditions.

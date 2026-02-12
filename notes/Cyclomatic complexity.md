@@ -1,0 +1,1 @@
+Measures the number of linearly independent paths through a program. Each if statement or loop adds to the metric.

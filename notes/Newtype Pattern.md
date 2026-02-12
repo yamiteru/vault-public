@@ -1,0 +1,1 @@
+A common pattern in functional programming is to wrap a value in a class to give it meaning and extra type safety. For example, you might wrap a double in a class called Liters, or a String in a class called ErrorMessage. This powerful technique is named after a keyword in the programming language Haskell.

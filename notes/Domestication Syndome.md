@@ -1,0 +1,1 @@
+Due to domestication animals (and humans) develop certain traits such as less sexual dimorphism, bigger lactation and smaller brains.

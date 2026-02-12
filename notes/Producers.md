@@ -1,0 +1,1 @@
+In [[Reactive programming]] or [[Functional Reactive Programming]] they produce and propagate values into [[Listeners]].

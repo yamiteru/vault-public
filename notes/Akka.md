@@ -1,0 +1,1 @@
+[[Reactive programming]] library designed for distributed processing and is largely based on the [[Actor model]].

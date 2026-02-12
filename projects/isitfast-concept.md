@@ -1,0 +1,159 @@
+# Isitfast
+
+- [ ] Is shared memory IPC less noisy?
+- [ ] Can I run two JS functions in two processes at the same time?
+- [ ] What algorithm do I use for removing outliers?
+- [ ] What algorithm do I use for comparing two sets of raw data?
+- [ ] What algorithm do I use for calculating deviation/variance? 
+- [ ] What algorithm do I use for change point detection?
+- [ ] How big should the sliding window for online stats be?
+- [ ] What system settings result in least amount of variance?
+- [ ] What NodeJS settings result in least amount of variance?
+- [ ] How many benchmarks should I run in random order to mitigate noise?
+- [ ] How much higher than upper-bound does a measurement have to be to flag it as leaky?
+- [ ] After how many deoptimizations do we flag a measurement as unstable?
+- [ ] After how many steady iterations do we flag a measurement as stable?
+- [ ] Is it possible to flag a measurement as unknown as the final state? 
+- [ ] How many more iterations do we have to run when the state is unknown?
+- [ ] After how many observations of the same state do we stop?
+- [ ] What is the minimum number of iterations?
+- [ ] What is the maximum execution time?
+- [ ] How to compare performance of two runs of the same benchmark?
+- [ ] How to send raw data somewhere else (eg. my server)?
+- [ ] How to collect anonymous data about runs on local devices?
+- [ ] Can we have a leaky CPU execution time?
+
+
+---
+
+
+- Duet benchmarking
+    -> run two identical benchmarks at the same time in two different threads
+    - How do I determine which measurement is caused by noise?
+    - What if both measurements are different?
+        - Do I keep the first one?
+        - Do I keep the second one?
+        - Do I do average of both of them?
+    - Is it possible to run two JS functions in two processes at the same time?
+        - There could be a delay of a few (??) nanoseconds
+- Benchmark order
+    -> Group benchmarks into two groups based on how likely we think they could show performance degradation 
+    -> Then run benchmarks in random order in each group starting with the first group
+    -> Run at least X amount of benchmarks in random order to mitigate effects of different kinds of noise
+        - How many benchmarks do we need to have in one group to get rid of noise?
+    -> We should use cryptographical generator of random values to achieve true randomness
+    - Can we somehow run individual measurements and not only whole runs in random order?  
+- Measurement states
+    -> Leaky - value 1-2x higher than warm-up
+        - Is 2x too much or too little?
+        - Can there be CPU leak or does leak mean only a memory leak?
+    -> Unstable - observe 5 deoptimizations
+        - Is 5 too much or too little?
+    -> Steady - observe 30% steady measurements
+        - Is 30% too much or too little?
+    -> Unknown - no leaky/unstable/steady
+        -> In most cases it means we need to keep measuring
+            - Isn't it in all cases?
+        -> If we can't keep measuring then we flag measurement as unknown
+            - Is this even possible?
+    -> (Combined) - combination of the above states
+        -> Each measurement can have parts of different state
+        -> We use the last state as the main state for the measurement
+- Continue conditions
+    -> When most of the measurements are non-steady but we encounter steady
+    -> When we reach Unknown state we run more iterations
+    -> When we reach Unknown state and we shouldn't run any more iterations but the tail is steady
+    -> We take 2x more iterations where every time the number of iteration decreases by 0.25
+        - Is 2x too much or too little a is decreasing by 0.25 too fast or too slow?
+- Stop conditions
+    -> Most of non-steady measurements are of the same type with the minimum number of measurements set to 3
+        - Is 3 too much or too little?
+    -> Most steady measurements are similar with the minimum number of measurements set to 3
+        - Is 3 too much or too little?
+- Result types
+    -> (All)
+        -> Number of all runs
+        -> Percentage of steady runs
+        -> Percentage of unstable runs
+        -> Percentage of unknown runs
+        -> Percentage of leaky runs
+        -> Iteration median + deviation
+        -> Warm-up Y (value) median + deviation
+        -> Warm-up X (iterations) median + deviation
+        -> Optimization median + deviation
+        -> Deoptimization median + deviation
+    -> Leaky
+    -> Unstable
+    -> Unknown
+    -> Steady
+        -> Percentage of steady runs that are not similar
+        -> Stable tail Y (value) median + deviation
+        -> Stable tail X (iterations) median + deviation
+        -> How far away is tail's value relative to warm-up
+- Steady state
+    -> If we provide numbered benchmarks we try to get BigO
+        -> It's possible that the numbers don't correlate
+            -> Most likely the benchmarks should be named
+    -> If we provide named benchmarks we plot results as bars
+
+
+---
+
+
+- Unpredictable performance of VMs
+    - VM provider
+    - Linux/kernel
+    - Turbo-boost
+    - Advanced power management
+    - Resource contention
+    - VM scheduling
+    - Noisy neighbours
+    - Different hardware (placement gaming)
+    - Temperature 
+    - Region/day/time
+
+- Noise and outliers
+    - Benchmark bimodality
+    - Duet benchmarking
+    - Pin benchmark to one core
+    - System management interrupts
+    - Fully preemptive mode in the kernel
+    - Configuring NFV threads with real-time priorities
+    - Disable apps/services
+    - Randomized Multiple Interleaved Trials
+    - Shared memory IPC
+    - Garbage collection
+    - Run the same benchmark on multiple VMs
+
+- High cost of running benchmarks
+    - Stop conditions
+    - ML to predict performance regression
+    - Dynamic reconfiguration
+    - Redundant benchmark detection
+    - Run only changed functions
+    - Run functions with highest coverage first
+
+- Rigorous statistics
+    - Non-parametric
+    - Confidence intervals
+    - Median
+    - Median absolute deviation
+    - Min value
+    - Quantile analysis
+    - Quantile absolute deviation
+    - Extreme value theory for higher quantile estimations
+    - Streaming quantile estimators
+    - Harrell-Davis quantile estimator
+    - DoubleMAD outlier detector based on the Harrell-Davis quantile estimator
+    - Quantile-respectful density plots based on the Harrell-Davis quantile estimators
+    - Maritz-Jarrett method for quantile confidence interval estimations
+    - Bayesian statistics
+    - Estimation statistics
+    - Lowland multimodality detection
+    - Point-wise confidence bands
+    - Kullback-Leibler divergence
+    - Inertial Hidden Markov Models
+    - E-Divisive with Medians
+    - Welch’s unequal variance t-test
+    - BOCPD-BLS
+    - Bayesian inference

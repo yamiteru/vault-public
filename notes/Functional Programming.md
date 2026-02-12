@@ -1,0 +1,1 @@
+A style or paradigm of programming based on functions, in the mathematical sense of the word. It deliberately avoids shared mutable state, so it implies the use of immutable data structures, and it emphasizes [[Compositionality]].

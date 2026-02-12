@@ -1,0 +1,1 @@
+A person can change their [[Paradigm]], either slowly or all at once through an epiphany. You usually need a crisis to bring about an epiphany, so we prefer the first method.

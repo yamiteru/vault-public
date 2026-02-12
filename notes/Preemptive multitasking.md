@@ -1,0 +1,3 @@
+Similar to [[Cooperatove multitasking]] but in this model, the operating system would determine which program would run on the CPU at which time, using its own notion of scheduling, rather than relying on the programs themselves to be the sole deciders of when to switch execution.
+
+This is the approach generally used in almost every operating system since we usually have more programs running than we have CPU cores.

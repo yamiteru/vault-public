@@ -1,0 +1,3 @@
+Way of thinking, a world view, a philosophical framework, or a frame of reference. A paradigm usually applies to a particular area of knowledge. It’s based on a set of underlying assumptions.
+
+Most people share most of their assumptions about the world around them, and these shared assumptions provide a frame of reference that enables us to communicate with each other. When there’s a significant difference in the assumptions between two people, communication becomes more difficult. We say that people are operating in different paradigms. A good example is the culture shock you can experience when you visit another country.

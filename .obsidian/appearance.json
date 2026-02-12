@@ -1,7 +1,8 @@
 {
   "accentColor": "",
-  "cssTheme": "Catppuccin",
+  "cssTheme": "",
   "interfaceFontFamily": "SF Pro",
   "textFontFamily": "SF Pro Text",
-  "monospaceFontFamily": "Hack Nerd Font Mono"
+  "monospaceFontFamily": "Hack Nerd Font Mono",
+  "theme": "moonstone"
 }

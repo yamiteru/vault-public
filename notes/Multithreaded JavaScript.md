@@ -1,0 +1,12 @@
+- Not all CPU intensive problems have to be solved with threads
+- More cores means we can have [[Parallelism]]
+- Processes don't share memory while threads do
+- [[Parallelism]] is different from [[Concurrency]]
+- Async/await is not multithreaded (only one call stack is active at any given time - meaning they do not use [[Parallelism]] but they use [[Concurrency]])
+- [[JavaScript Realm]]
+- JavaScript might use hidden threads to run meaning it's not really single-threaded (for example garbage collection or DOM rendering might run in a different thread)
+- [[Web Workers]]
+- We can use processes in NodeJS if we don't care about shared memory (or cluster for spawning multiple threads of NodeJS)
+- In NodeJS we can communicate between processes or workers with `MessagePort` or `MessageChannel`
+- We can use `Atomics` to better work with `SharedArrayBuffer` data which could be shared with multiple threads. It basically locks the data until the atomic function has run. This is usually called race condition.
+

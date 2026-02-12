@@ -1,0 +1,1 @@
+You tell the machine what the program is, not what it does. You directly describe things and the relationships between them.
