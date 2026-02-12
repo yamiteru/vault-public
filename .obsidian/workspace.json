@@ -11,14 +11,13 @@
             "id": "42381b9d0a7dbf5d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "notes/Twitch.md",
-                "mode": "source",
-                "source": true
+                "file": "Untitled 1.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Twitch"
+              "icon": "lucide-table",
+              "title": "Untitled 1"
             }
           }
         ]
@@ -105,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Twitch.md",
+                "file": "Untitled 1.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Twitch"
+              "title": "Backlinks for Untitled 1"
             }
           },
           {
@@ -124,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/Twitch.md",
+                "file": "Untitled 1.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Twitch"
+              "title": "Outgoing links from Untitled 1"
             }
           },
           {
@@ -157,11 +156,16 @@
     "hiddenItems": {
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "canvas:Create new canvas": false
     }
   },
   "active": "42381b9d0a7dbf5d",
   "lastOpenFiles": [
+    "Untitled.base",
+    "Untitled 1.base",
+    "notes/Twitch.md",
     "books/building-enterprise-javascript-applications.md",
     "notes/Triple constraint.md",
     "notes/TDD.md",
