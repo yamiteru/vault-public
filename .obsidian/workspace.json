@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/First Mover Advantage.md",
+                "file": "papers/A Comparative Study on Outlier Removal from a Large-scale Dataset using Unsupervised Anomaly Detection.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "First Mover Advantage"
+              "title": "A Comparative Study on Outlier Removal from a Large-scale Dataset using Unsupervised Anomaly Detection"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/First Mover Advantage.md",
+                "file": "papers/A Comparative Study on Outlier Removal from a Large-scale Dataset using Unsupervised Anomaly Detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for First Mover Advantage"
+              "title": "Backlinks for A Comparative Study on Outlier Removal from a Large-scale Dataset using Unsupervised Anomaly Detection"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/First Mover Advantage.md",
+                "file": "papers/A Comparative Study on Outlier Removal from a Large-scale Dataset using Unsupervised Anomaly Detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from First Mover Advantage"
+              "title": "Outgoing links from A Comparative Study on Outlier Removal from a Large-scale Dataset using Unsupervised Anomaly Detection"
             }
           },
           {
@@ -174,21 +174,33 @@
   },
   "active": "4037d865b65ec8f0",
   "lastOpenFiles": [
-    "books/building-enterprise-javascript-applications.md",
-    "articles/Trip to France in Retrospect.md",
-    "articles/Jak se náboženství omylem stalo univerzálním nástrojem dobrovolného zotročení lidské mysli.md",
-    "articles/Embracing Vulnerability A Story of Overcoming Fear and Reclaiming Identity.md",
-    "articles/Boj a pustina, která po boji zůstala.md",
-    "Untitled 1.base",
-    "Untitled.base",
-    "test.md",
-    "notes/Twitch.md",
+    "papers/A Statistics-Based Performance Testing Methodology for Cloud Applications.md",
+    "papers/Apache IoTDB: A Time Series Database for IoT Applications.md",
+    "papers/Applying test case prioritization to software microbenchmarks.md",
+    "notes/WebAssembly.md",
+    "notes/Web Workers.md",
+    "notes/von Neumann machine.md",
+    "notes/Thread pool.md",
     "notes/Triple constraint.md",
     "notes/TDD.md",
-    "notes/Definition of Done.md",
+    "notes/Structured Clone Algorithm.md",
+    "notes/Structure and Interpretation of Computer Programs.md",
+    "notes/SSR.md",
+    "notes/SSoT.md",
+    "notes/SPOF.md",
+    "notes/Secure Remote Password.md",
+    "notes/Nootropics.md",
+    "notes/Paradigm.md",
+    "notes/Newtype Pattern.md",
+    "notes/My own programming language.md",
+    "notes/Multithreaded JavaScript.md",
+    "notes/Mutex.md",
+    "notes/Functional Reactive Programming.md",
+    "notes/Impedance Mismatch.md",
+    "notes/Functional Programming.md",
     "notes/First Mover Advantage.md",
-    "notes/Code Smells.md",
-    "notes/documentation-system.md",
-    "README.md"
+    "notes/education.md",
+    "Untitled 1.base",
+    "Untitled.base"
   ]
 }
