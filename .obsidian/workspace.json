@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/A Comparative Study on Outlier Removal from a Large-scale Dataset using Unsupervised Anomaly Detection.md",
+                "file": "projects/quickscope/Brainstorming - 2026.02.13.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "A Comparative Study on Outlier Removal from a Large-scale Dataset using Unsupervised Anomaly Detection"
+              "title": "Brainstorming - 2026.02.13"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304
+    "width": 304,
+    "collapsed": true
   },
   "right": {
     "id": "a2880b451d802a19",
@@ -174,6 +175,10 @@
   },
   "active": "4037d865b65ec8f0",
   "lastOpenFiles": [
+    "projects/_index.md",
+    "projects/quickscope/Brainstorming - 2026.02.13.md",
+    "papers/A Comparative Study on Outlier Removal from a Large-scale Dataset using Unsupervised Anomaly Detection.md",
+    "projects/quickscope",
     "papers/A Statistics-Based Performance Testing Methodology for Cloud Applications.md",
     "papers/Apache IoTDB: A Time Series Database for IoT Applications.md",
     "papers/Applying test case prioritization to software microbenchmarks.md",
@@ -197,9 +202,6 @@
     "notes/Mutex.md",
     "notes/Functional Reactive Programming.md",
     "notes/Impedance Mismatch.md",
-    "notes/Functional Programming.md",
-    "notes/First Mover Advantage.md",
-    "notes/education.md",
     "Untitled 1.base",
     "Untitled.base"
   ]
