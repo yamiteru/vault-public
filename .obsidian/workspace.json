@@ -4,43 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "23ccbdcb4cc028b7",
+        "id": "237dfd91cf18ab4f",
         "type": "tabs",
-        "dimension": 49.62686567164179,
         "children": [
           {
-            "id": "4037d865b65ec8f0",
+            "id": "d6255df5052f2d4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/code review/Research 1.md",
+                "file": "projects/code review/Brainstorming.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Research 1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "17cf2041e786dd31",
-        "type": "tabs",
-        "dimension": 50.373134328358205,
-        "children": [
-          {
-            "id": "8377056feaa72569",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "projects/code review/Research 2.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Research 2"
+              "title": "Brainstorming"
             }
           }
         ]
@@ -110,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304,
-    "collapsed": true
+    "width": 304
   },
   "right": {
     "id": "a2880b451d802a19",
@@ -195,8 +172,9 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "4037d865b65ec8f0",
+  "active": "d6255df5052f2d4d",
   "lastOpenFiles": [
+    "projects/code review/Brainstorming.md",
     "projects/code review/Research 2.md",
     "projects/code review/Research 1.md",
     "projects/code review/Review 2.md",
@@ -223,7 +201,6 @@
     "notes/SPOF.md",
     "notes/Secure Remote Password.md",
     "notes/Nootropics.md",
-    "notes/Paradigm.md",
     "Untitled 1.base",
     "Untitled.base"
   ]
