@@ -1,5 +1,9 @@
 I want to create a system which tracks the "life" of all code even across languages.
 
+The system has to be created completely from scratch.
+
+It should be inspired by scientific research but not limited by it and it should by itself be innovative and scientific research should be born from it.
+
 So for example if a config for something has been saved in JSON and then refactored into TypeScript as a hardcoded variable and then moved from constants somewhere else and made dynamic I should be able to see this history of this particular piece of code when I click/hover on it.
 
 The system should work on as granular level as possible.
@@ -95,3 +99,11 @@ For example if I both extract the function AND refactor it (maybe change its sig
 Theoretically each edge could also have "reason" metadata which in the case of `EXTRACTED` would maybe say "index.ts was getting too big" and `REFACTORED` would maybe say "signature was changed to support 'from' field because we need to differentiate between different senders" and "error handling has been improved because in production users were seeing cryptic error messages which led to confused users".
 
 (maybe it could be several `EXTRACTED` edges each with a different `reason` or a single edge with an array of reasons) 
+
+> We're just transient care-takers of this organism that remembers the birth and death of all of its molecules
+
+> In a system like this the term "legacy code" does not exist anymore because "legacy" is usually synonymous with "code that nobody understands and is afraid to ask" but in this system the system itself can answer answers so in a way the system understands it  
+
+The system should allow an AI chat where the user can ask why any piece of code exists, who created it, what were all the times it has changed and most importantly why it has changed.
+
+Such a system also creates all kinds of temporal connections between pieces of code so the AI system can very quickly and easily identify e.g. functions that always change together even though there's no direct connection between them (and they can also be in completely different languages)
