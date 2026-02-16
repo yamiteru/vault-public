@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/code review/Brainstorming.md",
+                "file": "projects/boid/Summary.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Brainstorming"
+              "title": "Summary"
             }
           }
         ]
@@ -174,18 +174,26 @@
   },
   "active": "d6255df5052f2d4d",
   "lastOpenFiles": [
-    "projects/code review/Graph types.md",
-    "projects/quickscope/Brainstorming - 2026.02.13.md",
-    "projects/code review/Brainstorming.md",
-    "projects/code review/Research 2.md",
-    "projects/code review/Research 1.md",
+    "projects/boid/code review/Brainstorming.md",
+    "projects/boid/Summary.md",
+    "projects/boid/README.md",
+    "README.md",
+    "projects/boid/quickscope/Architecture.md",
+    "projects/boid/quickscope/Summary.md",
+    "projects/boid/quickscope/ARCHITECTURE.md",
+    "projects/boid/quickscope/README.md",
+    "projects/boid",
+    "projects/boid/code review/Graph types.md",
+    "projects/boid/quickscope/Brainstorming - 2026.02.13.md",
+    "projects/boid/code review/Research 2.md",
+    "projects/boid/code review/Research 1.md",
     "projects/code review/Review 2.md",
     "projects/code review/ai-code-review-research.md",
     "projects/binary-protocol.md",
     "projects/entroca.md",
     "projects/_index.md",
     "papers/A Comparative Study on Outlier Removal from a Large-scale Dataset using Unsupervised Anomaly Detection.md",
-    "projects/quickscope",
+    "projects/boid/quickscope",
     "papers/A Statistics-Based Performance Testing Methodology for Cloud Applications.md",
     "papers/Apache IoTDB: A Time Series Database for IoT Applications.md",
     "papers/Applying test case prioritization to software microbenchmarks.md",
@@ -194,13 +202,6 @@
     "notes/von Neumann machine.md",
     "notes/Thread pool.md",
     "notes/Triple constraint.md",
-    "notes/TDD.md",
-    "notes/Structured Clone Algorithm.md",
-    "notes/Structure and Interpretation of Computer Programs.md",
-    "notes/SSR.md",
-    "notes/SSoT.md",
-    "notes/SPOF.md",
-    "notes/Secure Remote Password.md",
     "Untitled 1.base",
     "Untitled.base"
   ]
